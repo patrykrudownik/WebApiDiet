@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Reading
+    internal class Recipe
     {
         public int Id { get; set; }
-        public double Temperature { get; set; }
-        public double Humidity { get; set; }
     }
 }
