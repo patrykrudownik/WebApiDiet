@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Recipe
+    public class Recipe : Meal
     {
         public int Id { get; set; }
+        public List<String> Steps { get; set; }
     }
 }

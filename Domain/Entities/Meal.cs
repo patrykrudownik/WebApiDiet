@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Meal
+    public class Meal
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }        
+        public string Description { get; set; }       
+        public List<Ingredient> Ingredients { get; set; }
+
+        public Meal() { }
     }
 }
